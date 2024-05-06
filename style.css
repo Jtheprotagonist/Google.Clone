@@ -171,6 +171,12 @@ p {
 }
 
 .profile-pic-small {
-    width: 50px; /* Adjust this value as needed */
+    width: 35px; /* Adjust this value as needed */
     height: auto; /* Maintains aspect ratio */
+}
+
+.mic {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
 }
