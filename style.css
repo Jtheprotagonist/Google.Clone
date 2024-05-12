@@ -196,3 +196,107 @@
     display: inline-block; /* Display list items horizontally */
     margin-left: 20px; /* Add space between list items */
 }
+
+/* Add this CSS to your style.css file */
+
+/* Flexbox styles for header navigation */
+header {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 10px 20px; /* Add padding for spacing */
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.menu-bg {
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+    border-radius: 0; /* Remove border-radius */
+    box-shadow: none; /* Remove box shadow */
+}
+
+/* Add this CSS to your style.css file */
+
+/* Styles for the menu button image */
+.menu-button {
+    width: 24px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    /* Add any other styles you want */
+}
+
+.menu-button:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+    /* Add any other hover effects you want */
+}
+
+
+.menu-button {
+    width: 24px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    /* Add any other styles you want */
+}
+
+.menu-bg {
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+    border-radius: 50%; /* Make it circular */
+}
+
+.menu-button:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add circular shadow on hover */
+}
+
+
+.menu-bg {
+    background-color: transparent; /* Remove background color */
+    padding: 8px; /* Add padding to create space around the image */
+    border-radius: 50%; /* Make it circular */
+}
+
+.menu-button {
+    width: 24px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    /* Add any other styles you want */
+}
+
+.menu-button:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add circular shadow on hover */
+}
+
+.navigation-container ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.navigation-container li {
+    display: inline-block;
+    margin-right: 1px; /* Adjust the margin between list items */
+}
+
+.profile-pic-small {
+    width: 27px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.profile-pic-small:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add circular shadow on hover */
+}
